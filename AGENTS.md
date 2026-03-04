@@ -103,6 +103,14 @@ Guidance for autonomous coding agents working in this repository.
 - Extract repeated class combinations into small reusable components.
 - Keep global CSS minimal and intentional.
 
+### shadcn/ui Components
+- `components.json` is configured (`style: radix-vega`, `cssVariables: true`, aliases set to `@/components`, `@/components/ui`, `@/lib`, `@/hooks`).
+- Prefer composing existing shadcn primitives before creating custom UI from scratch.
+- Prefer using shadcn/ui components if you know one exists for the component you need, you are allowed to install them (if needed)
+- Keep generated UI components in `src/components/ui` and feature-level wrappers in `src/components`.
+- When adding components, preserve variant APIs (`variant`, `size`) and avoid breaking class/prop passthrough patterns.
+- Use `@/lib/utils` helpers (for example `cn`) consistently for class merging when available.
+
 ## Lint Rules and Implications
 - ESLint scans `**/*.{ts,tsx}`.
 - Base extends:
