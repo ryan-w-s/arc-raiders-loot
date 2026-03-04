@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint . --fix",
     "preview": "vite preview",
-    "precommit": "bun run lint && tsc --noEmit"
+    "test": "vitest run",
+    "precommit": "bun run lint && tsc --noEmit && bun run test"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.17",
@@ -28,6 +29,7 @@
     "globals": "^16.5.0",
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.46.4",
-    "vite": "^7.2.4"
+    "vite": "^7.2.4",
+    "vitest": "^4.0.18"
   }
 }
