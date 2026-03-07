@@ -1,0 +1,6051 @@
+{
+  "metadata": {
+    "title": "ARC Raiders loot guide",
+    "sourceCsv": "public/ARC Raiders - Safe to Sell or Recycle GUIDE Mar. 2026 - All Items by Keep, Sell, Recycle.csv",
+    "generatedAt": "2026-03-07T04:57:12.899Z",
+    "updatedAt": "03/03/2026",
+    "compatiblePatch": "1.18.0",
+    "totalItems": 199,
+    "sourceLabel": "SOURCE",
+    "referenceLabel": "Link to Steam Discussion Board Post",
+    "guideNotes": [
+      "General Tip:",
+      "Support me on ko-fi! > https://ko-fi.com/ctcinna",
+      "For most items, if you have them in excess or your stash is almost full, then the ideal option would be to sell unless you need it for a certain quest.",
+      "Scrappy Tip:",
+      "If you are Topside for at least 1 minute, Scrappy will accumulate Metal Parts, Fabric, Plastic Parts, Chemicals, Rubber Parts, and Assorted Seeds",
+      "based on time spent and whether you successfully extract.",
+      "He does not work while you are offline or hanging out in Speranza.",
+      "So, remember to use Scrappy for accumulating basic materials and seeds",
+      "strategically which will allow you to bring in more expensive and rare items to Speranza.",
+      "Inventory Management Tip (if you're running out of space):",
+      "An important tip for maintaining space in your inventory is by not hoarding up on locked door keys and keeping ammo in your stash",
+      "As soon as you get a key during a round, try to use it in your next round, because these keys do not stack unlike other items.",
+      "Additionally, try to craft bullets before you deploy so your stash has some free space which can remain occupied if you store too much ammo.",
+      "ARC Raiders Wiki loot table for extra reference in-case I don't update this in time",
+      "Really Awesome Cheat Sheet by u/pRoDeeD (only compatible for November 2025 [pre-Cold Snap])",
+      "In-game tool by Pabos",
+      "Be sure to follow the instructions in the GitHub to get it setup!"
+    ]
+  },
+  "summary": {
+    "byPrimaryAction": {
+      "sell": 72,
+      "keep": 94,
+      "recycle": 33
+    },
+    "byRarity": {
+      "Legendary": 3,
+      "Common": 24,
+      "Rare": 97,
+      "Uncommon": 59,
+      "Epic": 16
+    }
+  },
+  "items": [
+    {
+      "id": "acoustic-guitar",
+      "name": "Acoustic Guitar",
+      "rarity": "Legendary",
+      "recommendation": {
+        "raw": "Sell",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "sell",
+            "condition": "Sell"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 4,
+          "item": "Metal Parts"
+        },
+        {
+          "quantity": 6,
+          "item": "Wires"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "7000",
+        "value": 7000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "adrenaline-shot",
+      "name": "Adrenaline Shot",
+      "rarity": "Common",
+      "recommendation": {
+        "raw": "Keep",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 1,
+          "item": "Chemicals"
+        },
+        {
+          "quantity": 1,
+          "item": "Plastic Parts"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "300",
+        "value": 300,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "advanced-arc-powercell",
+      "name": "Advanced Arc Powercell",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Keep",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 2,
+          "item": "ARC Powercell"
+        }
+      ],
+      "keepReasons": [
+        "Medical Lab: Surge Shield Recharger"
+      ],
+      "sellPrice": {
+        "raw": "640",
+        "value": 640,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "advanced-electrical-components",
+      "name": "Advanced Electrical Components",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Keep",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 1,
+          "item": "Electrical Components"
+        },
+        {
+          "quantity": 1,
+          "item": "Wires"
+        }
+      ],
+      "keepReasons": [
+        "10x for Gear Bench III and Utility Station III Upgrades",
+        "5x Expedition Stage 4"
+      ],
+      "sellPrice": {
+        "raw": "1750",
+        "value": 1750,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "advanced-mechanical-components",
+      "name": "Advanced Mechanical Components",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Keep",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 1,
+          "item": "Mechanical Components"
+        },
+        {
+          "quantity": 1,
+          "item": "Steel Spring"
+        }
+      ],
+      "keepReasons": [
+        "5x for Gunsmith III Upgrade"
+      ],
+      "sellPrice": {
+        "raw": "1750",
+        "value": 1750,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "agave",
+      "name": "Agave",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Sell",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "sell",
+            "condition": "Sell"
+          }
+        ]
+      },
+      "recycleRewards": [],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "agave-juice",
+      "name": "Agave Juice",
+      "rarity": "Common",
+      "recommendation": {
+        "raw": "Keep; or sell if short on space",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep"
+          },
+          {
+            "action": "sell",
+            "condition": "or sell if short on space"
+          }
+        ]
+      },
+      "recycleRewards": [],
+      "keepReasons": [
+        "Quick Use for Healing"
+      ],
+      "sellPrice": {
+        "raw": "1800",
+        "value": 1800,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "air-freshener",
+      "name": "Air Freshener",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Sell",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "sell",
+            "condition": "Sell"
+          }
+        ]
+      },
+      "recycleRewards": [],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "2000",
+        "value": 2000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "alarm-clock",
+      "name": "Alarm Clock",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Recycle",
+        "primaryAction": "recycle",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 6,
+          "item": "Plastic Parts"
+        },
+        {
+          "quantity": 1,
+          "item": "Processor"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "alien-duck",
+      "name": "Alien Duck",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Keep",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep"
+          }
+        ]
+      },
+      "recycleRewards": [],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": null,
+        "value": null,
+        "currency": null
+      }
+    },
+    {
+      "id": "antiseptic",
+      "name": "Antiseptic",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Keep",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 10,
+          "item": "Chemical"
+        }
+      ],
+      "keepReasons": [
+        "Crafting Heals"
+      ],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "apricot",
+      "name": "Apricot",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Keep until upgrades are complete; sell once done",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep until upgrades are complete"
+          },
+          {
+            "action": "sell",
+            "condition": "sell once done"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 3,
+          "item": "Assorted Seeds"
+        }
+      ],
+      "keepReasons": [
+        "17x for Scrappy Level III and V"
+      ],
+      "sellPrice": {
+        "raw": "640",
+        "value": 640,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "arc-alloy",
+      "name": "ARC Alloy",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Keep",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep"
+          }
+        ]
+      },
+      "recycleRewards": [],
+      "keepReasons": [
+        "18x for Explosives, Medical Lab, and Utility Station Level I Upgrades",
+        "80x Expedition Stage 1"
+      ],
+      "sellPrice": {
+        "raw": "200",
+        "value": 200,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "arc-circuitry",
+      "name": "ARC Circuitry",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Keep",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 2,
+          "item": "ARC Alloy"
+        }
+      ],
+      "keepReasons": [
+        "10x for Refiner III Upgrade"
+      ],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "arc-coolant",
+      "name": "ARC Coolant",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Sell",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "sell",
+            "condition": "Sell"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 16,
+          "item": "Chemicals"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "arc-flex-rubber",
+      "name": "ARC Flex Rubber",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Recycle if short on materials; Sell otherwise if excess",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle if short on materials"
+          },
+          {
+            "action": "sell",
+            "condition": "Sell otherwise if excess"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 16,
+          "item": "Rubber Parts"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "arc-motion-core",
+      "name": "ARC Motion Core",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Keep",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 2,
+          "item": "ARC Alloy"
+        }
+      ],
+      "keepReasons": [
+        "5x for Refiner II Upgrades",
+        "Refiner: Magnetic Accelerator"
+      ],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "arc-performance-steel",
+      "name": "ARC Performance Steel",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Keep for Trophy Display; Recycle after",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep for Trophy Display"
+          },
+          {
+            "action": "recycle",
+            "condition": "Recycle after"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 12,
+          "item": "Metal Parts"
+        }
+      ],
+      "keepReasons": [
+        "10x for Trophy Display Stage 3"
+      ],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "arc-powercell",
+      "name": "ARC Powercell",
+      "rarity": "Common",
+      "recommendation": {
+        "raw": "Keep",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep"
+          }
+        ]
+      },
+      "recycleRewards": [],
+      "keepReasons": [
+        "5x for Refiner I",
+        "Medical Lab: Shield Rechargers"
+      ],
+      "sellPrice": {
+        "raw": "640",
+        "value": 640,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "arc-synthetic-resin",
+      "name": "ARC Synthetic Resin",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Keep for Trophy Display; Recycle if short on materials; Sell otherwise",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep for Trophy Display"
+          },
+          {
+            "action": "recycle",
+            "condition": "Recycle if short on materials"
+          },
+          {
+            "action": "sell",
+            "condition": "Sell otherwise"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 14,
+          "item": "Plastic Parts"
+        }
+      ],
+      "keepReasons": [
+        "10x for Trophy Display Stage 4"
+      ],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "arc-thermo-lining",
+      "name": "ARC Thermo Lining",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Recycle if short on materials; Sell otherwise",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle if short on materials"
+          },
+          {
+            "action": "sell",
+            "condition": "Sell otherwise"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 16,
+          "item": "Fabric"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "assorted-seeds",
+      "name": "Assorted Seeds",
+      "rarity": "Common",
+      "recommendation": {
+        "raw": "Keep",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep"
+          }
+        ]
+      },
+      "recycleRewards": [],
+      "keepReasons": [
+        "Can be used as currency w/ Celeste for supplies"
+      ],
+      "sellPrice": {
+        "raw": "$100 (Per seed)",
+        "value": null,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": "bastion-cell",
+      "name": "Bastion Cell",
+      "rarity": "Epic",
+      "recommendation": {
+        "raw": "Keep for upgrade and Trophy Display; sell once done",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep for upgrade and Trophy Display"
+          },
+          {
+            "action": "sell",
+            "condition": "sell once done"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 2,
+          "item": "ARC Alloy"
+        },
+        {
+          "quantity": 2,
+          "item": "Advanced Mechanical Components"
+        }
+      ],
+      "keepReasons": [
+        "6x for Gear Bench III Upgrade",
+        "5x for Trophy Display Stage 3"
+      ],
+      "sellPrice": {
+        "raw": "5000",
+        "value": 5000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "battery",
+      "name": "Battery",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Keep",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 2,
+          "item": "Metal Parts"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "250",
+        "value": 250,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "bicycle-pump",
+      "name": "Bicycle Pump",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Recycle",
+        "primaryAction": "recycle",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 4,
+          "item": "Canister"
+        },
+        {
+          "quantity": 10,
+          "item": "Metal Parts"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "2000",
+        "value": 2000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "bombardier-cell",
+      "name": "Bombardier Cell",
+      "rarity": "Epic",
+      "recommendation": {
+        "raw": "Keep upgrade and Trophy Display; Sell once done",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep upgrade and Trophy Display"
+          },
+          {
+            "action": "sell",
+            "condition": "Sell once done"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 2,
+          "item": "Advanced Mechanical Components"
+        },
+        {
+          "quantity": 2,
+          "item": "ARC Alloys"
+        }
+      ],
+      "keepReasons": [
+        "6x for Refiner III Upgrades",
+        "8x for Trophy Display Stage 5"
+      ],
+      "sellPrice": {
+        "raw": "5000",
+        "value": 5000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "breathtaking-snow-globe",
+      "name": "Breathtaking Snow Globe",
+      "rarity": "Epic",
+      "recommendation": {
+        "raw": "Sell",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "sell",
+            "condition": "Sell"
+          }
+        ]
+      },
+      "recycleRewards": [],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "7000",
+        "value": 7000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "broken-flashlight",
+      "name": "Broken Flashlight",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Recycle",
+        "primaryAction": "recycle",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 2,
+          "item": "Battery"
+        },
+        {
+          "quantity": 6,
+          "item": "Metal Parts"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "broken-guidance-system",
+      "name": "Broken Guidance System",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Recycle",
+        "primaryAction": "recycle",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 4,
+          "item": "Processor"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "2000",
+        "value": 2000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "broken-handheld-radio",
+      "name": "Broken Handheld Radio",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Recycle",
+        "primaryAction": "recycle",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 3,
+          "item": "Sensors"
+        },
+        {
+          "quantity": 2,
+          "item": "Wires"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "2000",
+        "value": 2000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "broken-taser",
+      "name": "Broken Taser",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Recycle",
+        "primaryAction": "recycle",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 2,
+          "item": "Battery"
+        },
+        {
+          "quantity": 2,
+          "item": "Wires"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "burned-arc-circuitry",
+      "name": "Burned ARC Circuitry",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Recycle",
+        "primaryAction": "recycle",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 2,
+          "item": "ARC Alloy"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "640",
+        "value": 640,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "camera-lens",
+      "name": "Camera Lens",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Recycle",
+        "primaryAction": "recycle",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 8,
+          "item": "Plastic Parts"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "640",
+        "value": 640,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "candle-holder",
+      "name": "Candle Holder",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Recycle",
+        "primaryAction": "recycle",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 8,
+          "item": "Metal Parts"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "640",
+        "value": 640,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "candleberries",
+      "name": "Candleberries",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Sell",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "sell",
+            "condition": "Sell"
+          }
+        ]
+      },
+      "recycleRewards": [],
+      "keepReasons": [
+        "All Stages of Flickering Flames (260x Total)"
+      ],
+      "sellPrice": {
+        "raw": "460",
+        "value": 460,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "canister",
+      "name": "Canister",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Keep",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 3,
+          "item": "Plastics Parts"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "300",
+        "value": 300,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "cat-bed",
+      "name": "Cat Bed",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Keep until upgrade is complete; sell once done",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep until upgrade is complete"
+          },
+          {
+            "action": "sell",
+            "condition": "sell once done"
+          }
+        ]
+      },
+      "recycleRewards": [],
+      "keepReasons": [
+        "1x for Scrappy Level IV Upgrades"
+      ],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "chemicals",
+      "name": "Chemicals",
+      "rarity": "Common",
+      "recommendation": {
+        "raw": "Keep",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep"
+          }
+        ]
+      },
+      "recycleRewards": [],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "50",
+        "value": 50,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "coffee-pot",
+      "name": "Coffee Pot",
+      "rarity": "Common",
+      "recommendation": {
+        "raw": "Sell",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "sell",
+            "condition": "Sell"
+          }
+        ]
+      },
+      "recycleRewards": [],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "complex-gun-parts",
+      "name": "Complex Gun Parts",
+      "rarity": "Epic",
+      "recommendation": {
+        "raw": "Keep",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 2,
+          "item": "Simple Gun Parts"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "2000",
+        "value": 2000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "coolant",
+      "name": "Coolant",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Sell",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "sell",
+            "condition": "Sell"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 5,
+          "item": "Chemicals"
+        },
+        {
+          "quantity": 2,
+          "item": "Oil"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "cooling-coil",
+      "name": "Cooling Coil",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Recycle",
+        "primaryAction": "recycle",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 6,
+          "item": "Chemicals"
+        },
+        {
+          "quantity": 2,
+          "item": "Steel Springs"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "cooling-fan",
+      "name": "Cooling Fan",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "KEEP FOR EXPEDITION MATS; Sell after",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "KEEP FOR EXPEDITION MATS"
+          },
+          {
+            "action": "sell",
+            "condition": "Sell after"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 14,
+          "item": "Plastic Parts"
+        },
+        {
+          "quantity": 4,
+          "item": "Wires"
+        }
+      ],
+      "keepReasons": [
+        "5x Expedition Stage 2"
+      ],
+      "sellPrice": {
+        "raw": "2000",
+        "value": 2000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "cracked-bioscanner",
+      "name": "Cracked Bioscanner",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Keep until upgrade is complete; sell or recycle once done",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep until upgrade is complete"
+          },
+          {
+            "action": "sell",
+            "condition": "sell or recycle once done"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 3,
+          "item": "Rubber Parts"
+        },
+        {
+          "quantity": 3,
+          "item": "Battery"
+        }
+      ],
+      "keepReasons": [
+        "2x for Medical Lab II Upgrade"
+      ],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "crude-explosives",
+      "name": "Crude Explosives",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Keep; If no inventory space, recycle",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep"
+          },
+          {
+            "action": "recycle",
+            "condition": "If no inventory space, recycle"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 3,
+          "item": "Chemicals"
+        }
+      ],
+      "keepReasons": [
+        "5x for Explosives Station II Upgrade"
+      ],
+      "sellPrice": {
+        "raw": "270",
+        "value": 270,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "crumpled-plastic-bottle",
+      "name": "Crumpled Plastic Bottle",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Recycle",
+        "primaryAction": "recycle",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 4,
+          "item": "Plastic Parts"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "270",
+        "value": 270,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "damaged-arc-motion-core",
+      "name": "Damaged ARC Motion Core",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Recycle",
+        "primaryAction": "recycle",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 2,
+          "item": "ARC Alloy"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "640",
+        "value": 640,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "damaged-fireball-burner",
+      "name": "Damaged Fireball Burner",
+      "rarity": "Common",
+      "recommendation": {
+        "raw": "Recycle",
+        "primaryAction": "recycle",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 1,
+          "item": "ARC Alloy"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "270",
+        "value": 270,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "damaged-heat-sink",
+      "name": "Damaged Heat Sink",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Keep until upgrade is complete; sell once done",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep until upgrade is complete"
+          },
+          {
+            "action": "sell",
+            "condition": "sell once done"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 6,
+          "item": "Metal Parts"
+        },
+        {
+          "quantity": 2,
+          "item": "Wires"
+        }
+      ],
+      "keepReasons": [
+        "2x for Utility Station II Upgrade"
+      ],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "damaged-hornet-driver",
+      "name": "Damaged Hornet Driver",
+      "rarity": "Common",
+      "recommendation": {
+        "raw": "Recycle",
+        "primaryAction": "recycle",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 2,
+          "item": "ARC Alloy"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "640",
+        "value": 640,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "damaged-rocketeer-driver",
+      "name": "Damaged Rocketeer Driver",
+      "rarity": "Common",
+      "recommendation": {
+        "raw": "Sell",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "sell",
+            "condition": "Sell"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 3,
+          "item": "ARC Alloy"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "2000",
+        "value": 2000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "damaged-tick-pod",
+      "name": "Damaged Tick Pod",
+      "rarity": "Common",
+      "recommendation": {
+        "raw": "Recycle",
+        "primaryAction": "recycle",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 1,
+          "item": "ARC Alloy"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "270",
+        "value": 270,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "dartboard",
+      "name": "Dartboard",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Sell",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "sell",
+            "condition": "Sell"
+          }
+        ]
+      },
+      "recycleRewards": [],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "2000",
+        "value": 2000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "deflated-football",
+      "name": "Deflated Football",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Recycle",
+        "primaryAction": "recycle",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 9,
+          "item": "Rubber Parts"
+        },
+        {
+          "quantity": 9,
+          "item": "Fabric"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "degraded-arc-rubber",
+      "name": "Degraded ARC Rubber",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Recycle",
+        "primaryAction": "recycle",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 11,
+          "item": "Rubber Parts"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "640",
+        "value": 640,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "diving-goggles",
+      "name": "Diving Goggles",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Recycle",
+        "primaryAction": "recycle",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 12,
+          "item": "Rubber Parts"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "640",
+        "value": 640,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "dog-collar",
+      "name": "Dog Collar",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Keep until upgrade is complete; recycle once done",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep until upgrade is complete"
+          },
+          {
+            "action": "recycle",
+            "condition": "recycle once done"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 8,
+          "item": "Fabric"
+        },
+        {
+          "quantity": 1,
+          "item": "Metal Parts"
+        }
+      ],
+      "keepReasons": [
+        "1x Scrappy for Level II Upgrade"
+      ],
+      "sellPrice": {
+        "raw": "640",
+        "value": 640,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "doodly-duck",
+      "name": "Doodly Duck",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Sell",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "sell",
+            "condition": "Sell"
+          }
+        ]
+      },
+      "recycleRewards": [],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "3000",
+        "value": 3000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "dried-out-arc-resin",
+      "name": "Dried-Out ARC Resin",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Recycle",
+        "primaryAction": "recycle",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 9,
+          "item": "Plastic Parts"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "640",
+        "value": 640,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "duct-tape",
+      "name": "Duct Tape",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Keep",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 3,
+          "item": "Fabric"
+        }
+      ],
+      "keepReasons": [
+        "10x Flickering Flames Stage 3"
+      ],
+      "sellPrice": {
+        "raw": "640",
+        "value": 640,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "durable-cloth",
+      "name": "Durable Cloth",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Keep",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 6,
+          "item": "Fabric"
+        }
+      ],
+      "keepReasons": [
+        "5x for Medical Lab II Upgrade",
+        "35x Expedition Stage 2"
+      ],
+      "sellPrice": {
+        "raw": "640",
+        "value": 640,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "electrical-components",
+      "name": "Electrical Components",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Keep",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 3,
+          "item": "Plastics Parts"
+        },
+        {
+          "quantity": 3,
+          "item": "Rubber Parts"
+        }
+      ],
+      "keepReasons": [
+        "10x Gear Bench II and Utility Station II Upgrades",
+        "30x Expedition Stage 2"
+      ],
+      "sellPrice": {
+        "raw": "640",
+        "value": 640,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "empty-wine-bottle",
+      "name": "Empty Wine Bottle",
+      "rarity": "Common",
+      "recommendation": {
+        "raw": "Sell",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "sell",
+            "condition": "Sell"
+          }
+        ]
+      },
+      "recycleRewards": [],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "exodus-modules",
+      "name": "Exodus Modules",
+      "rarity": "Epic",
+      "recommendation": {
+        "raw": "Keep",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 2,
+          "item": "Magnet"
+        },
+        {
+          "quantity": 1,
+          "item": "Mechanical Components"
+        }
+      ],
+      "keepReasons": [
+        "1x Expedition Stage 3",
+        "5x for Trophy Display Stage 5"
+      ],
+      "sellPrice": {
+        "raw": "2750",
+        "value": 2750,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "expired-pasta",
+      "name": "Expired Pasta",
+      "rarity": "Common",
+      "recommendation": {
+        "raw": "Keep",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep"
+          }
+        ]
+      },
+      "recycleRewards": [],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "expired-respirator",
+      "name": "Expired Respirator",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Keep for Trophy Display; Recycle once complete",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep for Trophy Display"
+          },
+          {
+            "action": "recycle",
+            "condition": "Recycle once complete"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 8,
+          "item": "Rubber Parts"
+        },
+        {
+          "quantity": 4,
+          "item": "Fabric"
+        }
+      ],
+      "keepReasons": [
+        "3x for Trophy Display Stage 2"
+      ],
+      "sellPrice": {
+        "raw": "640",
+        "value": 640,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "explosive-compound",
+      "name": "Explosive Compound",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Keep",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 2,
+          "item": "Crude Explosives"
+        }
+      ],
+      "keepReasons": [
+        "5x for Explosives Station III Upgrade"
+      ],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "fabric",
+      "name": "Fabric",
+      "rarity": "Common",
+      "recommendation": {
+        "raw": "Keep",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep"
+          }
+        ]
+      },
+      "recycleRewards": [],
+      "keepReasons": [
+        "80x for Gear Bench I and Medical Lab I Upgrades"
+      ],
+      "sellPrice": {
+        "raw": "50",
+        "value": 50,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "faded-photograph",
+      "name": "Faded Photograph",
+      "rarity": "Common",
+      "recommendation": {
+        "raw": "Sell",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "sell",
+            "condition": "Sell"
+          }
+        ]
+      },
+      "recycleRewards": [],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "640",
+        "value": 640,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "familiar-duck",
+      "name": "Familiar Duck",
+      "rarity": "Epic",
+      "recommendation": {
+        "raw": "Sell",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "sell",
+            "condition": "Sell"
+          }
+        ]
+      },
+      "recycleRewards": [],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "7000",
+        "value": 7000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "fertilizer",
+      "name": "Fertilizer",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Keep for quest; Sell once done",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep for quest"
+          },
+          {
+            "action": "sell",
+            "condition": "Sell once done"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 2,
+          "item": "Assorted Seeds"
+        }
+      ],
+      "keepReasons": [
+        "1x for Unexpected Initiative"
+      ],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "film-reel",
+      "name": "Film Reel",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Keep for quest; Sell once done",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep for quest"
+          },
+          {
+            "action": "sell",
+            "condition": "Sell once done"
+          }
+        ]
+      },
+      "recycleRewards": [],
+      "keepReasons": [
+        "1x Trader Quest Item",
+        "2x Flickering Flames Stage 3"
+      ],
+      "sellPrice": {
+        "raw": "2000",
+        "value": 2000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "fine-wristwatch",
+      "name": "Fine Wristwatch",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Sell",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "sell",
+            "condition": "Sell"
+          }
+        ]
+      },
+      "recycleRewards": [],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "3000",
+        "value": 3000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "fireball-burner",
+      "name": "Fireball Burner",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Keep until upgrade is complete; recycle once done",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep until upgrade is complete"
+          },
+          {
+            "action": "recycle",
+            "condition": "recycle once done"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 1,
+          "item": "ARC Alloy"
+        },
+        {
+          "quantity": 1,
+          "item": "Crude Explosives"
+        }
+      ],
+      "keepReasons": [
+        "8x for Refiner II Upgrade"
+      ],
+      "sellPrice": {
+        "raw": "640",
+        "value": 640,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "flashy-duck",
+      "name": "Flashy Duck",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Sell",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "sell",
+            "condition": "Sell"
+          }
+        ]
+      },
+      "recycleRewards": [],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "3000",
+        "value": 3000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "flow-controller",
+      "name": "Flow Controller",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Recycle if short on materials; Sell otherwise",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle if short on materials"
+          },
+          {
+            "action": "sell",
+            "condition": "Sell otherwise"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 1,
+          "item": "Advanced Mechanical Components"
+        },
+        {
+          "quantity": 1,
+          "item": "Sensors"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "3000",
+        "value": 3000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "fossilized-lightning",
+      "name": "Fossilized Lightning",
+      "rarity": "Epic",
+      "recommendation": {
+        "raw": "Sell; recycle if short on materials",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "sell",
+            "condition": "Sell"
+          },
+          {
+            "action": "recycle",
+            "condition": "recycle if short on materials"
+          }
+        ]
+      },
+      "recycleRewards": [],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "4000",
+        "value": 4000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "frequency-modulation-box",
+      "name": "Frequency Modulation Box",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Recycle if short on materials; Sell otherwise",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle if short on materials"
+          },
+          {
+            "action": "sell",
+            "condition": "Sell otherwise"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 1,
+          "item": "Advanced Electrical Components"
+        },
+        {
+          "quantity": 1,
+          "item": "Speaker Component"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "3000",
+        "value": 3000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "fried-motherboard",
+      "name": "Fried Motherboard",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Keep until upgrade is complete; Sell once done",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep until upgrade is complete"
+          },
+          {
+            "action": "sell",
+            "condition": "Sell once done"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 5,
+          "item": "Plastic Parts"
+        },
+        {
+          "quantity": 2,
+          "item": "Electrical Components"
+        }
+      ],
+      "keepReasons": [
+        "3x for Utility Station III Upgrade"
+      ],
+      "sellPrice": {
+        "raw": "2000",
+        "value": 2000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "frying-pan",
+      "name": "Frying Pan",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Recycle",
+        "primaryAction": "recycle",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 8,
+          "item": "Metal Parts"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "640",
+        "value": 640,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "garlic-press",
+      "name": "Garlic Press",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Recycle if short on materials; Sell otherwise",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle if short on materials"
+          },
+          {
+            "action": "sell",
+            "condition": "Sell otherwise"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 12,
+          "item": "Metal Parts"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "geiger-counter",
+      "name": "Geiger Counter",
+      "rarity": "Epic",
+      "recommendation": {
+        "raw": "Keep for Trophy Display; Recycle if short on materials; Sell otherwise",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep for Trophy Display"
+          },
+          {
+            "action": "recycle",
+            "condition": "Recycle if short on materials"
+          },
+          {
+            "action": "sell",
+            "condition": "Sell otherwise"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 3,
+          "item": "Battery"
+        },
+        {
+          "quantity": 1,
+          "item": "Exodus Modules"
+        }
+      ],
+      "keepReasons": [
+        "3x for Trophy Display Stage 5"
+      ],
+      "sellPrice": {
+        "raw": "3500",
+        "value": 3500,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "gentle-duck",
+      "name": "Gentle Duck",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Sell",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "sell",
+            "condition": "Sell"
+          }
+        ]
+      },
+      "recycleRewards": [],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "great-mullein",
+      "name": "Great Mullein",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Keep",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 2,
+          "item": "Assorted Seeds"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "300",
+        "value": 300,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "headphones",
+      "name": "Headphones",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Sell",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "sell",
+            "condition": "Sell"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 7,
+          "item": "Rubber Parts"
+        },
+        {
+          "quantity": 1,
+          "item": "Speaker Components"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "heavy-gun-parts",
+      "name": "Heavy Gun Parts",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Keep",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 2,
+          "item": "Simple Gun Parts"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "700",
+        "value": 700,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "hornet-driver",
+      "name": "Hornet Driver",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Keep for upgrade and Trophy Display; recycle once done (Sell if excess)",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep for upgrade and Trophy Display"
+          },
+          {
+            "action": "sell",
+            "condition": "recycle once done (Sell if excess)"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 2,
+          "item": "ARC Alloy"
+        },
+        {
+          "quantity": 2,
+          "item": "Electrical Components"
+        }
+      ],
+      "keepReasons": [
+        "5x for Gear Bench II Upgrade",
+        "15x for Trophy Display Stage 2"
+      ],
+      "sellPrice": {
+        "raw": "2000",
+        "value": 2000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "household-cleaner",
+      "name": "Household Cleaner",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Recycle",
+        "primaryAction": "recycle",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 11,
+          "item": "Chemicals"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "640",
+        "value": 640,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "humidifier",
+      "name": "Humidifier",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "KEEP FOR EXPEDITION MATS; Recycle after",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "KEEP FOR EXPEDITION MATS"
+          },
+          {
+            "action": "recycle",
+            "condition": "Recycle after"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 2,
+          "item": "Canister"
+        },
+        {
+          "quantity": 2,
+          "item": "Wires"
+        }
+      ],
+      "keepReasons": [
+        "5x Expedition Stage 4"
+      ],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "ice-cream-scooper",
+      "name": "Ice Cream Scooper",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Recycle",
+        "primaryAction": "recycle",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 7,
+          "item": "Metal Parts"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "640",
+        "value": 640,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "impure-arc-coolant",
+      "name": "Impure ARC Coolant",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Recycle",
+        "primaryAction": "recycle",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 12,
+          "item": "Chemicals"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "640",
+        "value": 640,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "industrial-battery",
+      "name": "Industrial Battery",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Recycle if short on materials; Sell otherwise",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle if short on materials"
+          },
+          {
+            "action": "sell",
+            "condition": "Sell otherwise"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 7,
+          "item": "Chemicals"
+        },
+        {
+          "quantity": 2,
+          "item": "Battery"
+        }
+      ],
+      "keepReasons": [
+        "3x for Gear Bench III Upgrade",
+        "1x Flickering Flames Stage 2"
+      ],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "industrial-charger",
+      "name": "Industrial Charger",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Recycle if short on materials; Sell otherwise",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle if short on materials"
+          },
+          {
+            "action": "sell",
+            "condition": "Sell otherwise"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 5,
+          "item": "Metal Parts"
+        },
+        {
+          "quantity": 1,
+          "item": "Voltage Converter"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "industrial-magnet",
+      "name": "Industrial Magnet",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Recycle if short on materials; Sell otherwise",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle if short on materials"
+          },
+          {
+            "action": "sell",
+            "condition": "Sell otherwise"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 4,
+          "item": "Metal Parts"
+        },
+        {
+          "quantity": 2,
+          "item": "Magnet"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "ion-sputter",
+      "name": "Ion Sputter",
+      "rarity": "Epic",
+      "recommendation": {
+        "raw": "Recycle if short on materials; Sell otherwise",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle if short on materials"
+          },
+          {
+            "action": "sell",
+            "condition": "Sell otherwise"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 4,
+          "item": "Voltage Converter"
+        },
+        {
+          "quantity": 1,
+          "item": "Exodus Modules"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "6000",
+        "value": 6000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "laboratory-reagents",
+      "name": "Laboratory Reagents",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Keep until upgrade is complete; recycle once done",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep until upgrade is complete"
+          },
+          {
+            "action": "recycle",
+            "condition": "recycle once done"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 16,
+          "item": "Chemicals"
+        },
+        {
+          "quantity": 3,
+          "item": "Crude Explosives"
+        }
+      ],
+      "keepReasons": [
+        "3x for Explosives Station III Upgrade"
+      ],
+      "sellPrice": {
+        "raw": "2000",
+        "value": 2000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "lance-s-mixtape",
+      "name": "Lance's Mixtape",
+      "rarity": "Epic",
+      "recommendation": {
+        "raw": "Sell",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "sell",
+            "condition": "Sell"
+          }
+        ]
+      },
+      "recycleRewards": [],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "10000",
+        "value": 10000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "leaper-pulse-unit",
+      "name": "Leaper Pulse Unit",
+      "rarity": "Epic",
+      "recommendation": {
+        "raw": "KEEP FOR EXPEDITION MATS; Recycle after",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "KEEP FOR EXPEDITION MATS"
+          },
+          {
+            "action": "recycle",
+            "condition": "Recycle after"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 3,
+          "item": "Arc Alloy"
+        },
+        {
+          "quantity": 2,
+          "item": "Advanced Mechanical Components"
+        }
+      ],
+      "keepReasons": [
+        "4x for Utility Station III Upgrade",
+        "3x Expedition Stage 4",
+        "10x for Trophy Display Stage 3"
+      ],
+      "sellPrice": {
+        "raw": "5000",
+        "value": 5000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "lemon",
+      "name": "Lemon",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Keep until upgrade is complete; sell once done",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep until upgrade is complete"
+          },
+          {
+            "action": "sell",
+            "condition": "sell once done"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 3,
+          "item": "Assorted Seeds"
+        }
+      ],
+      "keepReasons": [
+        "5x for Scrappy Level III Upgrade"
+      ],
+      "sellPrice": {
+        "raw": "640",
+        "value": 640,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "light-bulb",
+      "name": "Light Bulb",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "KEEP FOR EXPEDITION MATS; Sell after",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "KEEP FOR EXPEDITION MATS"
+          },
+          {
+            "action": "sell",
+            "condition": "Sell after"
+          }
+        ]
+      },
+      "recycleRewards": [],
+      "keepReasons": [
+        "5x Expedition Stage 3",
+        "3x Flickering Flames Stage 2"
+      ],
+      "sellPrice": {
+        "raw": "2000",
+        "value": 2000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "light-gun-parts",
+      "name": "Light Gun Parts",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Keep",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 2,
+          "item": "Simple Gun Parts"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "700",
+        "value": 700,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "magnet",
+      "name": "Magnet",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Keep",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 2,
+          "item": "Metal Parts"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "300",
+        "value": 300,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "magnetic-accelerator",
+      "name": "Magnetic Accelerator",
+      "rarity": "Epic",
+      "recommendation": {
+        "raw": "Keep for high-tier crafting and Trophy Display; Sell if excess",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep for high-tier crafting and Trophy Display"
+          },
+          {
+            "action": "sell",
+            "condition": "Sell if excess"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 1,
+          "item": "Advanced Mechanical Components"
+        },
+        {
+          "quantity": 1,
+          "item": "ARC Motion Core"
+        }
+      ],
+      "keepReasons": [
+        "10x for Trophy Display Stage 4"
+      ],
+      "sellPrice": {
+        "raw": "5500",
+        "value": 5500,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "magnetron",
+      "name": "Magnetron",
+      "rarity": "Epic",
+      "recommendation": {
+        "raw": "Recycle if short on materials; Sell otherwise",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle if short on materials"
+          },
+          {
+            "action": "sell",
+            "condition": "Sell otherwise"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 1,
+          "item": "Magnetic Accelerator"
+        },
+        {
+          "quantity": 1,
+          "item": "Steel Spring"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "6000",
+        "value": 6000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "matriarch-reactor",
+      "name": "Matriarch Reactor",
+      "rarity": "Legendary",
+      "recommendation": {
+        "raw": "Keep for high-tier crafting and Trophy Display; Sell if excess",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep for high-tier crafting and Trophy Display"
+          },
+          {
+            "action": "sell",
+            "condition": "Sell if excess"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 1,
+          "item": "Power Rod"
+        },
+        {
+          "quantity": 1,
+          "item": "Magnetic Accelerator"
+        }
+      ],
+      "keepReasons": [
+        "3x for Trophy Display Stage 5"
+      ],
+      "sellPrice": {
+        "raw": "13000",
+        "value": 13000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "mechanical-components",
+      "name": "Mechanical Components",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Keep",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 3,
+          "item": "Metal Parts"
+        },
+        {
+          "quantity": 2,
+          "item": "Rubber Parts"
+        }
+      ],
+      "keepReasons": [
+        "5x for Gunsmith II Upgrade"
+      ],
+      "sellPrice": {
+        "raw": "640",
+        "value": 640,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "medium-gun-parts",
+      "name": "Medium Gun Parts",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Keep",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 2,
+          "item": "Simple Gun Parts"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "700",
+        "value": 700,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "metal-brackets",
+      "name": "Metal Brackets",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Recycle if short on materials; Sell otherwise",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle if short on materials"
+          },
+          {
+            "action": "sell",
+            "condition": "Sell otherwise"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 8,
+          "item": "Metal Parts"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "640",
+        "value": 640,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "metal-parts",
+      "name": "Metal Parts",
+      "rarity": "Common",
+      "recommendation": {
+        "raw": "Keep",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep"
+          }
+        ]
+      },
+      "recycleRewards": [],
+      "keepReasons": [
+        "80x for Gunsmith I and Refiner I Upgrades",
+        "150x Expedition Stage 1"
+      ],
+      "sellPrice": {
+        "raw": "75",
+        "value": 75,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "microscope",
+      "name": "Microscope",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Recycle if short on materials; Sell otherwise",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle if short on materials"
+          },
+          {
+            "action": "sell",
+            "condition": "Sell otherwise"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 1,
+          "item": "Advanced Mechanical Components"
+        },
+        {
+          "quantity": 3,
+          "item": "Magnet"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "3000",
+        "value": 3000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "mini-centrifuge",
+      "name": "Mini Centrifuge",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Recycle if short on materials; Sell otherwise",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle if short on materials"
+          },
+          {
+            "action": "sell",
+            "condition": "Sell otherwise"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 1,
+          "item": "Advanced Mechanical Components"
+        },
+        {
+          "quantity": 2,
+          "item": "Canister"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "3000",
+        "value": 3000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "mod-components",
+      "name": "Mod Components",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Keep",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 1,
+          "item": "Mechanical Components"
+        },
+        {
+          "quantity": 1,
+          "item": "Steel Spring"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "1750",
+        "value": 1750,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "moss",
+      "name": "Moss",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Keep for defib; recycle after",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep for defib"
+          },
+          {
+            "action": "recycle",
+            "condition": "recycle after"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 3,
+          "item": "Assorted Seeds"
+        }
+      ],
+      "keepReasons": [
+        "Medical Lab: Defibrillator"
+      ],
+      "sellPrice": {
+        "raw": "500",
+        "value": 500,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "motor",
+      "name": "Motor",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Keep until upgrade is complete; sell once done",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep until upgrade is complete"
+          },
+          {
+            "action": "sell",
+            "condition": "sell once done"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 2,
+          "item": "Oil"
+        },
+        {
+          "quantity": 2,
+          "item": "Mechanical Components"
+        }
+      ],
+      "keepReasons": [
+        "3x for Refiner III Upgrade"
+      ],
+      "sellPrice": {
+        "raw": "2000",
+        "value": 2000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "mushroom",
+      "name": "Mushroom",
+      "rarity": "Common",
+      "recommendation": {
+        "raw": "Keep until upgrade is complete; sell once done",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep until upgrade is complete"
+          },
+          {
+            "action": "sell",
+            "condition": "sell once done"
+          }
+        ]
+      },
+      "recycleRewards": [],
+      "keepReasons": [
+        "12x for Scrappy Level V Upgrade"
+      ],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "music-album",
+      "name": "Music Album",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Sell",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "sell",
+            "condition": "Sell"
+          }
+        ]
+      },
+      "recycleRewards": [],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "3000",
+        "value": 3000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "music-box",
+      "name": "Music Box",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Sell",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "sell",
+            "condition": "Sell"
+          }
+        ]
+      },
+      "recycleRewards": [],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "5000",
+        "value": 5000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "number-plate",
+      "name": "Number Plate",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Recycle",
+        "primaryAction": "recycle",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 3,
+          "item": "Metal Parts"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "270",
+        "value": 270,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "oil",
+      "name": "Oil",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Keep",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 3,
+          "item": "Chemicals"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "300",
+        "value": 300,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "olives",
+      "name": "Olives",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Keep until upgrade is complete; sell once done",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep until upgrade is complete"
+          },
+          {
+            "action": "sell",
+            "condition": "sell once done"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 2,
+          "item": "Assorted Seeds"
+        }
+      ],
+      "keepReasons": [
+        "6x for Scrappy Level IV Upgrade"
+      ],
+      "sellPrice": {
+        "raw": "640",
+        "value": 640,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "painted-box",
+      "name": "Painted Box",
+      "rarity": "Common",
+      "recommendation": {
+        "raw": "Sell",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "sell",
+            "condition": "Sell"
+          }
+        ]
+      },
+      "recycleRewards": [],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "2000",
+        "value": 2000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "plastic-parts",
+      "name": "Plastic Parts",
+      "rarity": "Common",
+      "recommendation": {
+        "raw": "Keep",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep"
+          }
+        ]
+      },
+      "recycleRewards": [],
+      "keepReasons": [
+        "75x for Gear Bench I and Utility Station I Upgrades",
+        "25x Flickering Flames Stage 1"
+      ],
+      "sellPrice": {
+        "raw": "60",
+        "value": 60,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "playing-cards",
+      "name": "Playing Cards",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Sell",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "sell",
+            "condition": "Sell"
+          }
+        ]
+      },
+      "recycleRewards": [],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "5000",
+        "value": 5000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "polluted-air-filter",
+      "name": "Polluted Air Filter",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Recycle if short on materials; Sell otherwise",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle if short on materials"
+          },
+          {
+            "action": "sell",
+            "condition": "Sell otherwise"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 6,
+          "item": "Fabric"
+        },
+        {
+          "quantity": 2,
+          "item": "Oil"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "pop-trigger",
+      "name": "Pop Trigger",
+      "rarity": "Common",
+      "recommendation": {
+        "raw": "Keep for Trophy Display; Recycle after upgrade and quest is done",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep for Trophy Display"
+          },
+          {
+            "action": "recycle",
+            "condition": "Recycle after upgrade and quest is done"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 1,
+          "item": "Crude Explosives"
+        },
+        {
+          "quantity": 1,
+          "item": "ARC Alloy"
+        }
+      ],
+      "keepReasons": [
+        "5x for Explosives Station II Upgrade",
+        "15x for Trophy Display for Stage 1"
+      ],
+      "sellPrice": {
+        "raw": "640",
+        "value": 640,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "portable-tv",
+      "name": "Portable TV",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Recycle if short on materials; Sell otherwise",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle if short on materials"
+          },
+          {
+            "action": "sell",
+            "condition": "Sell otherwise"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 6,
+          "item": "Wires"
+        },
+        {
+          "quantity": 2,
+          "item": "Battery"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "2000",
+        "value": 2000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "poster-of-natural-wonders",
+      "name": "Poster of Natural Wonders",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Sell",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "sell",
+            "condition": "Sell"
+          }
+        ]
+      },
+      "recycleRewards": [],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "2000",
+        "value": 2000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "pottery",
+      "name": "Pottery",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Sell",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "sell",
+            "condition": "Sell"
+          }
+        ]
+      },
+      "recycleRewards": [],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "2000",
+        "value": 2000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "power-bank",
+      "name": "Power Bank",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Recycle if short on materials; Sell otherwise",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle if short on materials"
+          },
+          {
+            "action": "sell",
+            "condition": "Sell otherwise"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 2,
+          "item": "Battery"
+        },
+        {
+          "quantity": 2,
+          "item": "Wires"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": null,
+        "value": null,
+        "currency": null
+      }
+    },
+    {
+      "id": "power-cable",
+      "name": "Power Cable",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Recycle",
+        "primaryAction": "recycle",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 4,
+          "item": "Wires"
+        }
+      ],
+      "keepReasons": [
+        "3x for Gear Bench II Upgrade"
+      ],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "power-rod",
+      "name": "Power Rod",
+      "rarity": "Epic",
+      "recommendation": {
+        "raw": "Keep for high-tier crafting; if excess, sell",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep for high-tier crafting"
+          },
+          {
+            "action": "sell",
+            "condition": "if excess, sell"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 1,
+          "item": "Advanced Electrical Components"
+        },
+        {
+          "quantity": 1,
+          "item": "ARC Circuitry"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "5500",
+        "value": 5500,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "prickly-pear",
+      "name": "Prickly Pear",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Keep until upgrade is complete; sell once done",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep until upgrade is complete"
+          },
+          {
+            "action": "sell",
+            "condition": "sell once done"
+          }
+        ]
+      },
+      "recycleRewards": [],
+      "keepReasons": [
+        "8x for Scrappy Level IV Upgrade"
+      ],
+      "sellPrice": {
+        "raw": "640",
+        "value": 640,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "processor",
+      "name": "Processor",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Keep",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 1,
+          "item": "Wires"
+        },
+        {
+          "quantity": 1,
+          "item": "Plastic Parts"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "500",
+        "value": 500,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "projector",
+      "name": "Projector",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Recycle if short on materials; Sell otherwise",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle if short on materials"
+          },
+          {
+            "action": "sell",
+            "condition": "Sell otherwise"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 2,
+          "item": "Wires"
+        },
+        {
+          "quantity": 1,
+          "item": "Processor"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "queen-reactor",
+      "name": "Queen Reactor",
+      "rarity": "Legendary",
+      "recommendation": {
+        "raw": "Keep for high-tier crafting and Trophy Display; Sell if excess",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep for high-tier crafting and Trophy Display"
+          },
+          {
+            "action": "sell",
+            "condition": "Sell if excess"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 1,
+          "item": "Power Rod"
+        },
+        {
+          "quantity": 1,
+          "item": "Magnetic Accelerator"
+        }
+      ],
+      "keepReasons": [
+        "3x for Trophy Display Stage 4"
+      ],
+      "sellPrice": {
+        "raw": "13000",
+        "value": 13000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "radio",
+      "name": "Radio",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Recycle if short on materials; Sell otherwise",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle if short on materials"
+          },
+          {
+            "action": "sell",
+            "condition": "Sell otherwise"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 1,
+          "item": "Speaker Component"
+        },
+        {
+          "quantity": 1,
+          "item": "Sensors"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "radio-relay",
+      "name": "Radio Relay",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Recycle if short on materials; Sell otherwise",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle if short on materials"
+          },
+          {
+            "action": "sell",
+            "condition": "Sell otherwise"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 2,
+          "item": "Speaker Componets"
+        },
+        {
+          "quantity": 2,
+          "item": "Sensors"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "3000",
+        "value": 3000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "recorder",
+      "name": "Recorder",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Sell",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "sell",
+            "condition": "Sell"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 10,
+          "item": "Plastic Parts"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "red-coral-jewelry",
+      "name": "Red Coral Jewelry",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Sell",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "sell",
+            "condition": "Sell"
+          }
+        ]
+      },
+      "recycleRewards": [],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "5000",
+        "value": 5000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "remote-control",
+      "name": "Remote Control",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Recycle if short on materials; Sell otherwise",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle if short on materials"
+          },
+          {
+            "action": "sell",
+            "condition": "Sell otherwise"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 7,
+          "item": "Plastic Parts"
+        },
+        {
+          "quantity": 1,
+          "item": "Sensors"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "resin",
+      "name": "Resin",
+      "rarity": "Common",
+      "recommendation": {
+        "raw": "Sell",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "sell",
+            "condition": "Sell"
+          }
+        ]
+      },
+      "recycleRewards": [],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "ripped-safety-vest",
+      "name": "Ripped Safety Vest",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Recycle",
+        "primaryAction": "recycle",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 1,
+          "item": "Durable Cloth"
+        },
+        {
+          "quantity": 1,
+          "item": "Magnet"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "rocket-thruster",
+      "name": "Rocket Thruster",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Recycle if low on Metal Parts, otherwise sell",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "sell",
+            "condition": "Recycle if low on Metal Parts, otherwise sell"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 6,
+          "item": "Metal Parts"
+        },
+        {
+          "quantity": 2,
+          "item": "Synthesized Fuel"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "2000",
+        "value": 2000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "rocketeer-driver",
+      "name": "Rocketeer Driver",
+      "rarity": "Epic",
+      "recommendation": {
+        "raw": "Keep for upgrade and Trophy Display; Sell once done",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep for upgrade and Trophy Display"
+          },
+          {
+            "action": "sell",
+            "condition": "Sell once done"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 3,
+          "item": "ARC Alloy"
+        },
+        {
+          "quantity": 2,
+          "item": "Advanced Electrical Components"
+        }
+      ],
+      "keepReasons": [
+        "3x for Explosive Station III Upgrade",
+        "8x for Trophy Display Stage 4"
+      ],
+      "sellPrice": {
+        "raw": "5000",
+        "value": 5000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "roots",
+      "name": "Roots",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Sell",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "sell",
+            "condition": "Sell"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 1,
+          "item": "Assorted Seeds"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "640",
+        "value": 640,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "rope",
+      "name": "Rope",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Keep",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 5,
+          "item": "Fabric"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "500",
+        "value": 500,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "rosary",
+      "name": "Rosary",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Sell",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "sell",
+            "condition": "Sell"
+          }
+        ]
+      },
+      "recycleRewards": [],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "2000",
+        "value": 2000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "rotary-encoder",
+      "name": "Rotary Encoder",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Keep; Recycle if short on materials; Sell otherwise",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep"
+          },
+          {
+            "action": "recycle",
+            "condition": "Recycle if short on materials"
+          },
+          {
+            "action": "sell",
+            "condition": "Sell otherwise"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 2,
+          "item": "Electrical Components"
+        },
+        {
+          "quantity": 2,
+          "item": "Processor"
+        }
+      ],
+      "keepReasons": [
+        "1x for Stella Montis"
+      ],
+      "sellPrice": {
+        "raw": "3000",
+        "value": 3000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "rubber-duck",
+      "name": "Rubber Duck",
+      "rarity": "Common",
+      "recommendation": {
+        "raw": "Sell; maybe keep (see note)",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "sell",
+            "condition": "Sell"
+          },
+          {
+            "action": "keep",
+            "condition": "maybe keep (see note)"
+          }
+        ]
+      },
+      "recycleRewards": [],
+      "keepReasons": [
+        "There might be a quest tied to having rubber ducks, so maybe keep some"
+      ],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "rubber-pad",
+      "name": "Rubber Pad",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Recycle if short on materials; Sell otherwise",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle if short on materials"
+          },
+          {
+            "action": "sell",
+            "condition": "Sell otherwise"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 18,
+          "item": "Rubber Parts"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "rubber-parts",
+      "name": "Rubber Parts",
+      "rarity": "Common",
+      "recommendation": {
+        "raw": "Keep",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep"
+          }
+        ]
+      },
+      "recycleRewards": [],
+      "keepReasons": [
+        "30x for Gunsmith I Upgrade",
+        "200x Expedition Stage 1"
+      ],
+      "sellPrice": {
+        "raw": "50",
+        "value": 50,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "ruined-accordion",
+      "name": "Ruined Accordion",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Sell",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "sell",
+            "condition": "Sell"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 18,
+          "item": "Rubber Parts"
+        },
+        {
+          "quantity": 3,
+          "item": "Steel Spring"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "2000",
+        "value": 2000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "ruined-baton",
+      "name": "Ruined Baton",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Recycle",
+        "primaryAction": "recycle",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 6,
+          "item": "Metal Parts"
+        },
+        {
+          "quantity": 3,
+          "item": "Rubber Parts"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "640",
+        "value": 640,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "ruined-handcuffs",
+      "name": "Ruined Handcuffs",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Recycle",
+        "primaryAction": "recycle",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 8,
+          "item": "Metal Parts"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "640",
+        "value": 640,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "ruined-parachute",
+      "name": "Ruined Parachute",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Recycle",
+        "primaryAction": "recycle",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 10,
+          "item": "Fabric"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "640",
+        "value": 640,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "ruined-riot-shield",
+      "name": "Ruined Riot Shield",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Recycle if short on materials; Sell otherwise",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle if short on materials"
+          },
+          {
+            "action": "sell",
+            "condition": "Sell otherwise"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 10,
+          "item": "Plastic Parts"
+        },
+        {
+          "quantity": 6,
+          "item": "Rubber Parts"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "ruined-tactical-vest",
+      "name": "Ruined Tactical Vest",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Recycle",
+        "primaryAction": "recycle",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 5,
+          "item": "Fabric"
+        },
+        {
+          "quantity": 1,
+          "item": "Magnet"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "640",
+        "value": 640,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "rusted-bolts",
+      "name": "Rusted Bolts",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Keep for Trophy Display; Recycle after",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep for Trophy Display"
+          },
+          {
+            "action": "recycle",
+            "condition": "Recycle after"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 8,
+          "item": "Metal Parts"
+        }
+      ],
+      "keepReasons": [
+        "3x for Trophy Display Stage 1"
+      ],
+      "sellPrice": {
+        "raw": "640",
+        "value": 640,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "rusted-gear",
+      "name": "Rusted Gear",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Keep until upgrade is complete; sell once done",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep until upgrade is complete"
+          },
+          {
+            "action": "sell",
+            "condition": "sell once done"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 4,
+          "item": "Metal Parts"
+        },
+        {
+          "quantity": 2,
+          "item": "Mechanical Components"
+        }
+      ],
+      "keepReasons": [
+        "3x for Gunsmith III Upgrade"
+      ],
+      "sellPrice": {
+        "raw": "2000",
+        "value": 2000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "rusted-shut-medical-kit",
+      "name": "Rusted Shut Medical Kit",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Keep until upgrade is complete; recycle once done",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep until upgrade is complete"
+          },
+          {
+            "action": "recycle",
+            "condition": "recycle once done"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 2,
+          "item": "Syringe"
+        },
+        {
+          "quantity": 1,
+          "item": "Antiseptic"
+        }
+      ],
+      "keepReasons": [
+        "3x for Medical Lab III Upgrade"
+      ],
+      "sellPrice": {
+        "raw": "2000",
+        "value": 2000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "rusted-tools",
+      "name": "Rusted Tools",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Keep until upgrade is complete; sell once done",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep until upgrade is complete"
+          },
+          {
+            "action": "sell",
+            "condition": "sell once done"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 8,
+          "item": "Metal Parts"
+        },
+        {
+          "quantity": 1,
+          "item": "Steel Spring"
+        }
+      ],
+      "keepReasons": [
+        "3x for Gunsmith II Upgrade"
+      ],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "rusty-arc-steel",
+      "name": "Rusty ARC Steel",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Recycle",
+        "primaryAction": "recycle",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 8,
+          "item": "Metal Parts"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "640",
+        "value": 640,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "sample-cleaner",
+      "name": "Sample Cleaner",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Recycle if short on materials; Sell otherwise",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle if short on materials"
+          },
+          {
+            "action": "sell",
+            "condition": "Sell otherwise"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 2,
+          "item": "Electrical Components"
+        },
+        {
+          "quantity": 14,
+          "item": "Assorted Seeds"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "3000",
+        "value": 3000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "sensors",
+      "name": "Sensors",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Keep",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 1,
+          "item": "Wires"
+        },
+        {
+          "quantity": 1,
+          "item": "Metal Parts"
+        }
+      ],
+      "keepReasons": [
+        "20x Expedition Stage 2"
+      ],
+      "sellPrice": {
+        "raw": "500",
+        "value": 500,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "sentinel-firing-core",
+      "name": "Sentinel Firing Core",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Keep until upgrade is complete; sell or recycle once done",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep until upgrade is complete"
+          },
+          {
+            "action": "sell",
+            "condition": "sell or recycle once done"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 2,
+          "item": "ARC Alloy"
+        },
+        {
+          "quantity": 3,
+          "item": "Mechanical Components"
+        }
+      ],
+      "keepReasons": [
+        "4x for Gunsmith III Upgrade"
+      ],
+      "sellPrice": {
+        "raw": "3000",
+        "value": 3000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "shredder-gyro",
+      "name": "Shredder Gyro",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Keep for Trophy Display; Recycle after",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep for Trophy Display"
+          },
+          {
+            "action": "recycle",
+            "condition": "Recycle after"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 3,
+          "item": "Mechanical Components"
+        },
+        {
+          "quantity": 3,
+          "item": "ARC Alloy"
+        }
+      ],
+      "keepReasons": [
+        "5x for Trophy Display Stage 3"
+      ],
+      "sellPrice": {
+        "raw": "3000",
+        "value": 3000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "signal-amplifier",
+      "name": "Signal Amplifier",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Recycle if short on materials; Sell otherwise",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle if short on materials"
+          },
+          {
+            "action": "sell",
+            "condition": "Sell otherwise"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 2,
+          "item": "Electrical Components"
+        },
+        {
+          "quantity": 2,
+          "item": "Voltage Converter"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "3000",
+        "value": 3000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "silver-teaspoon-set",
+      "name": "Silver Teaspoon Set",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Sell",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "sell",
+            "condition": "Sell"
+          }
+        ]
+      },
+      "recycleRewards": [],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "3000",
+        "value": 3000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "simple-gun-parts",
+      "name": "Simple Gun Parts",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Keep",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 2,
+          "item": "Metals Parts"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "330",
+        "value": 330,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "snitch-scanner",
+      "name": "Snitch Scanner",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Keep",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 4,
+          "item": "ARC Alloy"
+        }
+      ],
+      "keepReasons": [
+        "6x for Utility Station II Upgrade"
+      ],
+      "sellPrice": {
+        "raw": "2000",
+        "value": 2000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "speaker-component",
+      "name": "Speaker Component",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Keep",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 2,
+          "item": "Plastic Parts"
+        },
+        {
+          "quantity": 3,
+          "item": "Rubber Parts"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "500",
+        "value": 500,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "spectrometer",
+      "name": "Spectrometer",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Recycle if short on materials; Sell otherwise",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle if short on materials"
+          },
+          {
+            "action": "sell",
+            "condition": "Sell otherwise"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 1,
+          "item": "Advanced Electrical Components"
+        },
+        {
+          "quantity": 1,
+          "item": "Sensors"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "3000",
+        "value": 3000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "spectrum-analyzer",
+      "name": "Spectrum Analyzer",
+      "rarity": "Epic",
+      "recommendation": {
+        "raw": "Recycle if short on materials; Sell otherwise",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle if short on materials"
+          },
+          {
+            "action": "sell",
+            "condition": "Sell otherwise"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 1,
+          "item": "Sensors"
+        },
+        {
+          "quantity": 1,
+          "item": "Exodus Modules"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "3500",
+        "value": 3500,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "spotter-relay",
+      "name": "Spotter Relay",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Keep for Trophy Display; Sell once complete",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep for Trophy Display"
+          },
+          {
+            "action": "sell",
+            "condition": "Sell once complete"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 2,
+          "item": "Electrical Components"
+        },
+        {
+          "quantity": 1,
+          "item": "ARC Alloy"
+        }
+      ],
+      "keepReasons": [
+        "10x for Trophy Display Stage 2"
+      ],
+      "sellPrice": {
+        "raw": "2000",
+        "value": 2000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "spring-cushion",
+      "name": "Spring Cushion",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Recycle if short on materials; Sell otherwise",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle if short on materials"
+          },
+          {
+            "action": "sell",
+            "condition": "Sell otherwise"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 2,
+          "item": "Durable Cloth"
+        },
+        {
+          "quantity": 2,
+          "item": "Steel Springs"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "2000",
+        "value": 2000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "statuette",
+      "name": "Statuette",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Sell",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "sell",
+            "condition": "Sell"
+          }
+        ]
+      },
+      "recycleRewards": [],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "3000",
+        "value": 3000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "steel-spring",
+      "name": "Steel Spring",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Keep",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 2,
+          "item": "Metal Parts"
+        }
+      ],
+      "keepReasons": [
+        "15x Steel Spring"
+      ],
+      "sellPrice": {
+        "raw": "300",
+        "value": 300,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "surveyor-vault",
+      "name": "Surveyor Vault",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Keep for upgrade and Trophy Display; sell or recycle once done",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep for upgrade and Trophy Display"
+          },
+          {
+            "action": "sell",
+            "condition": "sell or recycle once done"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 2,
+          "item": "Mechanical Components"
+        },
+        {
+          "quantity": 2,
+          "item": "ARC Alloy"
+        }
+      ],
+      "keepReasons": [
+        "5x for Medical Lab III Upgrades",
+        "5x for Trophy Display Stage 1"
+      ],
+      "sellPrice": {
+        "raw": "2000",
+        "value": 2000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "synthesised-fuel",
+      "name": "Synthesised Fuel",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Keep",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 1,
+          "item": "Oil"
+        },
+        {
+          "quantity": 1,
+          "item": "Chemicals"
+        }
+      ],
+      "keepReasons": [
+        "3x for Explosives Station II Upgrade"
+      ],
+      "sellPrice": {
+        "raw": "700",
+        "value": 700,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "syringe",
+      "name": "Syringe",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Keep",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 3,
+          "item": "Plastic Parts"
+        },
+        {
+          "quantity": 2,
+          "item": "Chemicals"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "500",
+        "value": 500,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "tattered-arc-lining",
+      "name": "Tattered ARC Lining",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Recycle if short on materials; Sell otherwise",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle if short on materials"
+          },
+          {
+            "action": "sell",
+            "condition": "Sell otherwise"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 12,
+          "item": "Fabric"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "640",
+        "value": 640,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "tattered-clothes",
+      "name": "Tattered Clothes",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Recycle",
+        "primaryAction": "recycle",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 11,
+          "item": "Fabric"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "640",
+        "value": 640,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "telemetry-transceiver",
+      "name": "Telemetry Transceiver",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Recycle if short on materials; Sell otherwise",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle if short on materials"
+          },
+          {
+            "action": "sell",
+            "condition": "Sell otherwise"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 1,
+          "item": "Advanced Electrical Components"
+        },
+        {
+          "quantity": 1,
+          "item": "Processor"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "3000",
+        "value": 3000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "thermostat",
+      "name": "Thermostat",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Sell",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "sell",
+            "condition": "Sell"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 7,
+          "item": "Rubber Parts"
+        },
+        {
+          "quantity": 1,
+          "item": "Sensors"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "tick-pod",
+      "name": "Tick Pod",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Keep for upgrade and Trophy Display; sell or recycle once done",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep for upgrade and Trophy Display"
+          },
+          {
+            "action": "sell",
+            "condition": "sell or recycle once done"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 2,
+          "item": "Arc Alloy"
+        },
+        {
+          "quantity": 2,
+          "item": "Chemicals"
+        }
+      ],
+      "keepReasons": [
+        "8x for Medical Lab II Upgrade",
+        "15x for Trophy Display Stage 1"
+      ],
+      "sellPrice": {
+        "raw": "640",
+        "value": 640,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "toaster",
+      "name": "Toaster",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Keep until upgrade is complete; recycle otherwise",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep until upgrade is complete"
+          },
+          {
+            "action": "recycle",
+            "condition": "recycle otherwise"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 5,
+          "item": "Plastic Parts"
+        },
+        {
+          "quantity": 3,
+          "item": "Wires"
+        }
+      ],
+      "keepReasons": [
+        "3x for Refiner II Upgrade"
+      ],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "torn-blanket",
+      "name": "Torn Blanket",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Recycle",
+        "primaryAction": "recycle",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 12,
+          "item": "Fabric"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "640",
+        "value": 640,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "torn-book",
+      "name": "Torn Book",
+      "rarity": "Common",
+      "recommendation": {
+        "raw": "Sell",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "sell",
+            "condition": "Sell"
+          }
+        ]
+      },
+      "recycleRewards": [],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "tropical-duck",
+      "name": "Tropical Duck",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Sell",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "sell",
+            "condition": "Sell"
+          }
+        ]
+      },
+      "recycleRewards": [],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "turbo-pump",
+      "name": "Turbo Pump",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Recycle if short on materials; Sell otherwise",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle if short on materials"
+          },
+          {
+            "action": "sell",
+            "condition": "Sell otherwise"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 1,
+          "item": "Mechanical Components"
+        },
+        {
+          "quantity": 3,
+          "item": "Oil"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "2000",
+        "value": 2000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "unusable-weapon",
+      "name": "Unusable Weapon",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Recycle if short on materials; Sell otherwise",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle if short on materials"
+          },
+          {
+            "action": "sell",
+            "condition": "Sell otherwise"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 4,
+          "item": "Metal Parts"
+        },
+        {
+          "quantity": 5,
+          "item": "Simple Gun Parts"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "2000",
+        "value": 2000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "vase",
+      "name": "Vase",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Sell",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "sell",
+            "condition": "Sell"
+          }
+        ]
+      },
+      "recycleRewards": [],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "3000",
+        "value": 3000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "very-comfortable-pillow",
+      "name": "Very Comfortable Pillow",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Keep for Scrappy Level V Upgrade; sell afterwards",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep for Scrappy Level V Upgrade"
+          },
+          {
+            "action": "sell",
+            "condition": "sell afterwards"
+          }
+        ]
+      },
+      "recycleRewards": [],
+      "keepReasons": [
+        "3x for Scrappy Level V Upgrade"
+      ],
+      "sellPrice": {
+        "raw": "2000",
+        "value": 2000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "volcanic-rock",
+      "name": "Volcanic Rock",
+      "rarity": "Common",
+      "recommendation": {
+        "raw": "Sell",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "sell",
+            "condition": "Sell"
+          }
+        ]
+      },
+      "recycleRewards": [],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "270",
+        "value": 270,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "voltage-converter",
+      "name": "Voltage Converter",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Keep",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 1,
+          "item": "Wires"
+        },
+        {
+          "quantity": 1,
+          "item": "Rubber Parts"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "500",
+        "value": 500,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "wasp-driver",
+      "name": "Wasp Driver",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Keep for upgrade and Trophy Display; sell or recycle after",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep for upgrade and Trophy Display"
+          },
+          {
+            "action": "sell",
+            "condition": "sell or recycle after"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 1,
+          "item": "ARC Alloy"
+        },
+        {
+          "quantity": 1,
+          "item": "Electrical Components"
+        }
+      ],
+      "keepReasons": [
+        "8x for Gunsmith II Upgrade",
+        "20x for Trophy Display Stage 2"
+      ],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "water-filter",
+      "name": "Water Filter",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Recycle if short on materials; Sell otherwise",
+        "primaryAction": "sell",
+        "actions": [
+          {
+            "action": "recycle",
+            "condition": "Recycle if short on materials"
+          },
+          {
+            "action": "sell",
+            "condition": "Sell otherwise"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 2,
+          "item": "Rubber Parts"
+        },
+        {
+          "quantity": 3,
+          "item": "Canister"
+        }
+      ],
+      "keepReasons": [],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "water-pump",
+      "name": "Water Pump",
+      "rarity": "Rare",
+      "recommendation": {
+        "raw": "Keep until quest is complete; recycle or sell",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep until quest is complete"
+          },
+          {
+            "action": "sell",
+            "condition": "recycle or sell"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 4,
+          "item": "Metal Parts"
+        },
+        {
+          "quantity": 2,
+          "item": "Oil"
+        }
+      ],
+      "keepReasons": [
+        "1x for Unexpected Initiative"
+      ],
+      "sellPrice": {
+        "raw": "1000",
+        "value": 1000,
+        "currency": "credits"
+      }
+    },
+    {
+      "id": "wires",
+      "name": "Wires",
+      "rarity": "Uncommon",
+      "recommendation": {
+        "raw": "Keep",
+        "primaryAction": "keep",
+        "actions": [
+          {
+            "action": "keep",
+            "condition": "Keep"
+          }
+        ]
+      },
+      "recycleRewards": [
+        {
+          "quantity": 2,
+          "item": "Rubber Parts"
+        }
+      ],
+      "keepReasons": [
+        "30x Expedition Stage 2"
+      ],
+      "sellPrice": {
+        "raw": "200",
+        "value": 200,
+        "currency": "credits"
+      }
+    }
+  ]
+}

@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "build:loot-data": "bun scripts/build-loot-guide-json.ts",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint . --fix",

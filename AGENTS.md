@@ -9,6 +9,13 @@ Guidance for autonomous coding agents working in this repository.
 - Path alias: `@/* -> src/*` (configured in `tsconfig*.json` and `vite.config.ts`).
 - UI scaffolding: shadcn/ui config exists in `components.json`.
 
+## Product Intent
+- This app is an ARC Raiders loot keep/sell/recycle recommender.
+- Core UX goal: help players identify an item decision in a few seconds, with name search as the highest-priority interaction.
+- Filtering and sorting should support fast narrowing by recommendation category, rarity, and other useful loot attributes.
+- Favor data shapes and UI flows that are optimized for client-side search/filter/sort over raw source fidelity.
+- When making product decisions, prioritize clarity, scanability, and low-friction lookup over dense dashboards or overly decorative layouts.
+
 ## Source of Truth
 - Build/test/lint scripts are defined in `package.json`.
 - Type safety and strictness come from `tsconfig.app.json` and `tsconfig.node.json`.
@@ -77,6 +84,7 @@ Guidance for autonomous coding agents working in this repository.
 - Follow hooks rules strictly (enforced by `eslint-plugin-react-hooks`).
 - Preserve pure render logic; avoid side effects in render paths.
 - For stateful logic, prefer clear event handlers over inline complex expressions.
+- For loot browsing UI, keep search/filter/sort state easy to reason about and derive visible results from normalized source data.
 
 ### Naming
 - Components: `PascalCase` (`LootCard.tsx`).
@@ -96,6 +104,7 @@ Guidance for autonomous coding agents working in this repository.
 - Use `describe` blocks for feature grouping and `it/test` for scenarios.
 - Keep tests deterministic; avoid time/network randomness unless mocked.
 - Tests don't need to be 100% coverage, but every file and preferably every function should have at least one test.
+- For loot data utilities, prefer tests around search/filter/sort behavior and normalization edge cases from the CSV source.
 
 ### Tailwind / CSS
 - Tailwind v4 is enabled via `@import "tailwindcss"` in `src/index.css`.
@@ -130,3 +139,4 @@ Guidance for autonomous coding agents working in this repository.
 - Avoid destructive git commands unless explicitly requested.
 - Tests don't need to be 100% coverage, but every file and preferably every function should have at least one test.
 - Code should be clean, modular and reusable.
+- If you change loot ingestion or derived data, preserve fields needed for quick text search, category filtering, and stable sorting in the UI.
