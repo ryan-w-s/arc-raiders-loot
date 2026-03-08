@@ -1,22 +1,27 @@
-# ARC Raiders Loot Guide
+# ARC Raiders Loot Lookup
 
-Static loot keep/sell/recycle lookup for ARC Raiders, built with React, TypeScript, and Vite.
+Fast, searchable loot guidance for ARC Raiders. Look up an item by name, then quickly decide whether to keep, sell, or recycle it based on stash value, rarity, crafting use, and rule-based notes.
+
+Find it at: https://ryanws.tech/arc-raiders-loot/
+
+![ARC Raiders Loot Lookup screenshot](./website-screenshot.png)
+
+Built for quick in-raid and stash-cleaning decisions, with a UI centered on name search first and fast filtering/sorting second.
+
+## Highlights
+
+- Search by item name, material, recommendation, or keep reason
+- Filter by action, rarity, and utility flags
+- Sort by relevance, action, rarity, value, or name
+- Browse clear item cards with keep rules, upgrade uses, and recycle outputs
 
 ## Development
 
-- Install deps: `bun install`
-- Start dev server: `bun run dev`
-- Run checks: `bun run precommit`
+- Install: `bun install`
+- Start: `bun run dev`
+- Verify: `bun run precommit`
 
-## GitHub Pages
+## Build
 
-- Production output builds into `docs/`
-- The Vite base path is set for `https://ryanws.tech/arc-raiders-loot/`
-- GitHub Pages should be configured to publish from `master` and the `/docs` folder
-- `.nojekyll` is included via `public/.nojekyll` so static assets are served directly
-
-To publish an update:
-
-1. Run `bun run build`
-2. Commit the source changes and updated `docs/` output
-3. Push to `master`
+- Production build: `bun run build`
+- Preview build: `bun run preview`
